@@ -7,13 +7,14 @@ body {
     text-align: center;
 }
 
-@media (max-width: 400px) {
+@media only screen and (max-width: 400px) {
     body {
-        background-image: url(../img/cell.png);
+        background-image: url("../img/cell.png");
         background-repeat: no-repeat;
         background-size: cover;
-        background-size: 100%;
     }
+
+    
 }
 
 .container {
@@ -98,4 +99,22 @@ ul.open {
     text-align: center;
     left: 50%;
     top: 60%;
+}
+
+iframe {
+    width: 500px;
+    height: 350px;
+} 
+
+@media only screen and (max-width: 400px) {
+    .dc{
+        text-align: center;
+        left: 50%;
+        top: 60%;
+    }
+
+    iframe {
+        width: 320px;
+        height: 300px;
+    }
 }
