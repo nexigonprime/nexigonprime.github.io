@@ -20,7 +20,7 @@ body {
 .container {
     text-align: center;
     left: 50%;
-    top: 50%;
+    top: 30%;
     position: absolute;
     transform: translate(-50%,-50%);
     width: 100%;
@@ -98,7 +98,7 @@ ul.open {
 .dc {
     text-align: center;
     left: 50%;
-    top: 60%;
+    top: 50%;
 }
 
 iframe {
@@ -110,7 +110,7 @@ iframe {
     .dc{
         text-align: center;
         left: 50%;
-        top: 60%;
+        top: 50%;
     }
 
     iframe {
